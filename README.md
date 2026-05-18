@@ -63,14 +63,15 @@ Docker Compose installed
 🚀 Run the Project
 1. Clone repository
 git clone https://github.com/anvithareddy-06/smart-leads-dashboard.git
+
 cd smart-leads-dashboard
-2. Build containers
+3. Build containers
 docker-compose build
-3. Start containers
+4. Start containers
 docker-compose up -d
-4. Check running containers
+5. Check running containers
 docker ps
-5. Open in browser
+6. Open in browser
 
 Frontend:
 
@@ -104,6 +105,7 @@ Start Command: npm start
 👨‍💻 Author
 
 Anvitha Reddy
+
 Full Stack Developer
 
 ⭐ Future Improvements
