@@ -263,7 +263,6 @@ const [selectedLead, setSelectedLead] = useState<Lead | null>(null);
   leads={leads}
   onEdit={setEditLead}
   onDelete={handleDelete}
-  onView={setSelectedLead}
 />
         )}
 

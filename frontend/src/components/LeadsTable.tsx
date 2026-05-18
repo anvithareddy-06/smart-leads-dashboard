@@ -5,14 +5,12 @@ interface Props {
   leads: Lead[];
   onEdit: (lead: Lead) => void;
   onDelete: (id: string) => void;
-  onView: (lead: Lead) => void;
 }
 
 const LeadsTable = ({
   leads,
   onEdit,
   onDelete,
-  onView,
 }: Props) => {
   const role = localStorage.getItem("role");
 
