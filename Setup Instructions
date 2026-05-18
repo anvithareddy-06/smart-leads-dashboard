@@ -1,0 +1,79 @@
+## 🛠️ Setup Instructions
+
+### 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/anvithareddy-06/smart-leads-dashboard.git
+cd smart-leads-dashboard
+```
+
+---
+
+### 2️⃣ Setup Backend
+
+```bash
+cd backend
+npm install
+```
+
+Create `.env` file inside backend folder:
+
+```env
+PORT=5000
+MONGO_URI=your_mongodb_connection_string
+JWT_SECRET=your_secret_key
+```
+
+Run backend server:
+
+```bash
+npm run dev
+```
+
+Backend runs on:
+
+```text
+http://localhost:5000
+```
+
+---
+
+### 3️⃣ Setup Frontend
+
+Open new terminal:
+
+```bash
+cd frontend
+npm install
+```
+
+Run frontend:
+
+```bash
+npm run dev
+```
+
+Frontend runs on:
+
+```text
+http://localhost:5173
+```
+
+---
+
+### 4️⃣ Docker Setup (Optional)
+
+From root directory:
+
+```bash
+docker-compose up --build
+```
+
+---
+
+### 5️⃣ Login Credentials (Optional Demo)
+
+```text
+Email: admin@gmail.com
+Password: admin123
+```

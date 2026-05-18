@@ -1,0 +1,86 @@
+## 📡 API Documentation
+
+### 🔐 Authentication APIs
+
+#### Register User
+```http
+POST /api/auth/register
+```
+
+Request Body:
+```json
+{
+  "name": "Anvitha",
+  "email": "anvitha@gmail.com",
+  "password": "123456"
+}
+```
+
+#### Login User
+```http
+POST /api/auth/login
+```
+
+Request Body:
+```json
+{
+  "email": "anvitha@gmail.com",
+  "password": "123456"
+}
+```
+
+Response:
+```json
+{
+  "token": "jwt_token",
+  "role": "admin"
+}
+```
+
+---
+
+### 📋 Lead APIs
+
+> All lead routes require JWT token in Authorization header.
+
+Example:
+```http
+Authorization: Bearer your_token
+```
+
+#### Get All Leads
+```http
+GET /api/leads
+```
+
+Query Parameters:
+- `search`
+- `status`
+- `source`
+- `sort`
+- `page`
+
+#### Create Lead
+```http
+POST /api/leads
+```
+
+Request Body:
+```json
+{
+  "name": "John Doe",
+  "email": "john@gmail.com",
+  "status": "Qualified",
+  "source": "Website"
+}
+```
+
+#### Update Lead
+```http
+PUT /api/leads/:id
+```
+
+#### Delete Lead
+```http
+DELETE /api/leads/:id
+```
