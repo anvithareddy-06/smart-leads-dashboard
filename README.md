@@ -128,9 +128,7 @@ Start Command: npm start
 
 👨‍💻 Author
 
-Anvitha Reddy
-
-Full Stack Developer
+Anvitha Reddy @Full Stack Developer
 
 ⭐ Future Improvements
 Real-time analytics dashboard
