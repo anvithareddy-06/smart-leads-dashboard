@@ -2,6 +2,7 @@ import {
   useEffect,
   useState,
 } from "react";
+import { useNavigate } from "react-router-dom";
 
 import type { ReactNode } from "react";
 
@@ -54,7 +55,9 @@ const DashboardLayout = ({
 
     localStorage.removeItem("role");
 
-    window.location.href = "/login";
+const navigate = useNavigate();
+
+navigate("/login");
   };
 
   return (

@@ -1,5 +1,4 @@
 import {
-  BrowserRouter,
   Routes,
   Route,
   Navigate,
@@ -14,7 +13,7 @@ import ProtectedRoute from "./routes/ProtectedRoute";
 
 function App() {
   return (
-    <BrowserRouter>
+
 
       <Routes>
 
@@ -43,7 +42,7 @@ function App() {
 
       </Routes>
 
-    </BrowserRouter>
+    
   );
 }
 
