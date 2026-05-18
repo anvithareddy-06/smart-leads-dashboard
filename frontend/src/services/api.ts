@@ -2,7 +2,7 @@ import axios from "axios";
 baseURL: import.meta.env.VITE_API_URL
 
 const api = axios.create({
-  baseURL: "http://localhost:5000/api",
+  baseURL: "https://smart-leads-backend-6gd2.onrender.com",
 });
 
 api.interceptors.request.use((config) => {
