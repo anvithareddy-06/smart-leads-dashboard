@@ -79,6 +79,7 @@ http://localhost:5173
 Backend:
 
 http://localhost:5000
+
 🧱 Architecture
 Frontend (React + Vite)
         ↓
