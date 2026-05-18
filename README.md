@@ -62,7 +62,7 @@ Docker installed
 Docker Compose installed
 🚀 Run the Project
 1. Clone repository
-git clone https://github.com/anvitha-06/smart-leads-dashboard.git
+git clone https://github.com/anvithareddy-06/smart-leads-dashboard.git
 cd smart-leads-dashboard
 2. Build containers
 docker-compose build
