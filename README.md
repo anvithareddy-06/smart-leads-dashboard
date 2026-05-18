@@ -11,7 +11,7 @@ Render
 
 🔗 Backend
 
-👉 ttps://smart-leads-backend-6gd2.onrender.com
+👉 https://smart-leads-backend-6gd2.onrender.com
 
 ✨ Features
 🔐 User Authentication (Login system)
